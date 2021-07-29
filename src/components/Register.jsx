@@ -51,32 +51,31 @@ export class Register extends Component {
             name="name"
             value={this.state.name}
             label="name"
-            onChange={(name) => this.handleChangeName(name)}
+            handleChange={(name) => this.handleChangeName(name)}
           />
           <FormInput
             type="email"
             name="email"
             value={this.state.email}
             label="email"
-            onChange={(event) => this.handleChangeEmail(event)}
+            handleChange={(event) => this.handleChangeEmail(event)}
           />
           <FormInput
             type="password"
             name="password"
             value={this.state.password}
             label="password"
-            onChange={(event) => this.handleChangePassword(event)}
+            handleChange={(event) => this.handleChangePassword(event)}
           />
           <FormInput
             type="password"
             name="confirmPassword"
             value={this.state.confirmPassword}
             label="confirmPassword"
-            onChange={(event) => this.handleChangeConfirmPassword(event)}
+            handleChange={(event) => this.handleChangeConfirmPassword(event)}
           />
-          <div className='button-submit'>
-          <ButtonSubmit type='submit'>SignUp</ButtonSubmit>
-
+          <div className="button-submit">
+            <ButtonSubmit type="submit">SignUp</ButtonSubmit>
           </div>
         </form>
       </div>
