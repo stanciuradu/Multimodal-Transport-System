@@ -7,6 +7,7 @@ import { auth } from "../apis/firebase";
 
 function Header(props) {
   const { availableUser } = props;
+  console.log(props);
   return (
     <div className="header">
       <Link to="/" className="logo-container">
@@ -26,6 +27,7 @@ function Header(props) {
         {availableUser ? (
           <div className="option" onClick={() => auth.signOut()}>
             <h4>SIGN OUT</h4>
+            <p>{availableUser.displayName}</p>
           </div>
         ) : (
           <Link className="option" to="/sign_in"></Link>

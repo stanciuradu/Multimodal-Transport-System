@@ -41,7 +41,6 @@ export class HomePage extends Component {
                 imageUrl={category.imageUrl}
                 size={category.size}
                 key={index}
-                routeName={this.state.categoriesNames[index]}
               />
             );
           })}
