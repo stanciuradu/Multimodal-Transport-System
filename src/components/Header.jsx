@@ -4,6 +4,9 @@ import "../components/Header.scss";
 import { Link } from "react-router-dom";
 import Logo from "../assets/images/logo.png";
 import { auth } from "../apis/firebase";
+import CartIcon from "./CartIcon";
+import CartDropdown from "./CartDropdown";
+
 
 function Header(props) {
   const { availableUser } = props;
@@ -23,6 +26,7 @@ function Header(props) {
         <Link to="/sign_in" className="option">
           <h4>SIGN IN</h4>
         </Link>
+
         {/* daca user0ul este autentificat se afiseaza SignOut, altfel se redirectioneaza user-ul catre pagina de SignIn */}
         {availableUser ? (
           <div className="option" onClick={() => auth.signOut()}>
@@ -33,7 +37,9 @@ function Header(props) {
         ) : (
           <Link className="option" to="/sign_in"></Link>
         )}
+        <CartIcon />
       </div>
+        <CartDropdown />
     </div>
   );
 }
