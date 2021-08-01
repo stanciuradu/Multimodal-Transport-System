@@ -6,7 +6,7 @@ import { ReactComponent as ShoppingBag } from "../assets/icons/shopping-bag.svg"
 function CartIcon() {
   return (
     <div className="cart-icon">
-      <ShoppingBag className="shopping-icon"  />
+      <ShoppingBag className="shopping-icon" />
       {/* adauga la svg numarul total de itemuri din cart */}
       <span className="item-count">0</span>
     </div>

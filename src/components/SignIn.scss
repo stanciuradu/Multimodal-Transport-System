@@ -8,10 +8,10 @@
     align-items: center;
     margin: 10px 0px;
   }
-  .button-submit{
+  .button-submit {
     display: flex;
   }
-  .sign-in-with-google{
+  .sign-in-with-google {
     width: 15rem;
     height: 50px;
     letter-spacing: 0.5px;
@@ -21,16 +21,15 @@
     background-color: rgb(17, 55, 180);
     color: white;
     text-transform: uppercase;
-    font-family: 'Open Sans Condensed';
+    font-family: "Open Sans Condensed";
     font-weight: bolder;
     border: none;
     cursor: pointer;
     margin-right: 4rem;
   }
-  .sign-in-with-google:hover{
+  .sign-in-with-google:hover {
     background-color: white;
     color: black;
     border: 1px solid black;
   }
-
 }

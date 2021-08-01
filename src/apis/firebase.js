@@ -15,9 +15,4 @@ export function signOut() {
   return firebase.auth().signOut();
 }
 
-// export const createUserPorfileDocument=async(userAuth, additionalData)=>{
-//   if(!userAuth)
-//   return;
-// }
-export const auth=firebase.auth();
-// const firestore=firebase.firestore();
+export const auth = firebase.auth();

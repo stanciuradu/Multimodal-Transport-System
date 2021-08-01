@@ -1,9 +1,8 @@
 import React from "react";
 import "../components/FormInput.scss";
 
-
 function FormInput(props) {
-    // componenta primeste drept props-uir toate atributele de HTML ale tagului de input din form
+  // componenta primeste drept props-uir toate atributele de HTML ale tagului de input din form
   const { handleChange, label, type, name, value } = props;
   return (
     <div className="group">

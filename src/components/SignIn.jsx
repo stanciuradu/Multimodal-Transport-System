@@ -4,7 +4,7 @@ import FormInput from "./FormInput";
 import ButtonSubmit from "./ButtonSubmit";
 // import functia de autentificare cu Google
 import { signInWithGoogle } from "../apis/firebase";
-import{withRouter} from 'react-router-dom';
+import { withRouter } from "react-router-dom";
 export class SignIn extends Component {
   constructor() {
     super();
@@ -18,7 +18,7 @@ export class SignIn extends Component {
   // prin history.push se redirectioneaza user-ul catre pagina de Home
   handleSignInWithGoogle() {
     signInWithGoogle();
-    this.props.history.push('/');
+    this.props.history.push("/");
   }
   // metoda pentru a face update campupui de email
   handleChangeEmail(event) {

@@ -7,7 +7,6 @@ import { auth } from "../apis/firebase";
 import CartIcon from "./CartIcon";
 import CartDropdown from "./CartDropdown";
 
-
 function Header(props) {
   const { availableUser } = props;
   console.log(props);
@@ -39,7 +38,7 @@ function Header(props) {
         )}
         <CartIcon />
       </div>
-        <CartDropdown />
+      <CartDropdown />
     </div>
   );
 }
