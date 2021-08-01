@@ -6,9 +6,11 @@ import Logo from "../assets/images/logo.png";
 import { auth } from "../apis/firebase";
 import CartIcon from "./CartIcon";
 import CartDropdown from "./CartDropdown";
+// conectez componenta la redux prin connect
+import { connect } from "react-redux";
 
 function Header(props) {
-  const { availableUser } = props;
+  const { availableUser, hidden } = props;
   console.log(props);
   return (
     <div className="header">
@@ -38,9 +40,17 @@ function Header(props) {
         )}
         <CartIcon />
       </div>
-      <CartDropdown />
+      {/* imlementam un operator ternar */}
+      {/* daca componenta este ascunsa, nu se afiseaza nimic, altfel, se afiseaza componenta */}
+      {hidden ? null : <CartDropdown />}
     </div>
   );
 }
-
-export default Header;
+// abonez componenta Header  la store
+function mapStateToProps(state) {
+  console.log(state);
+  return {
+    hidden: state.hidden,
+  };
+}
+export default connect(mapStateToProps)(Header);
