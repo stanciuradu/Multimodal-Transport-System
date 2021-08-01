@@ -1,6 +1,7 @@
 const initialState = {
   // initial, componenta dropDown este ascunsa, deci hidden are valorea true, iar la eventul de click pe iconita se va afisa componete de DropDown
   hidden: true,
+  products:[]
 };
 
 function cartReducer(state = initialState, action) {
@@ -11,6 +12,17 @@ function cartReducer(state = initialState, action) {
         ...state,
         hidden: !state.hidden,
       };
+      case "ADD_TO_CART":
+        // preiau produsul din action.payload
+        const product=action.payload;
+        const newState={
+          ...state,
+          products:[
+            ...state.products,
+            product
+          ]
+        }
+        return newState;
     default:
       return state;
   }

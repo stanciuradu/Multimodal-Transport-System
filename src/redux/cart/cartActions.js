@@ -4,3 +4,11 @@ export function toggleCartHidden(){
         type:"TOGGLE_CART_HIDDEN"
     }
 }
+
+// actiune pentru adaucarea produselor in cart
+export function addToCart(product){
+    return{
+        type:"ADD_TO_CART",
+        payload:product
+    }
+}

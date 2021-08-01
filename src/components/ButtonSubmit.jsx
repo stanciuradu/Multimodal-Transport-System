@@ -3,10 +3,10 @@ import React from "react";
 import "../components/ButtonSubmit.scss";
 
 function ButtonSubmit(props) {
-  const { children, ...otherProps } = props;
+  const { children,inverted, ...otherProps } = props;
   return (
     <div>
-      <button type="button" className="custom-button" {...otherProps}>
+      <button type="button" className={`${inverted?'inverted':''}custom-button`} {...otherProps}>
         {children}
       </button>
     </div>

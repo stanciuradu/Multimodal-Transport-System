@@ -1,8 +1,12 @@
 import React from "react";
 import "../components/CollectionItem.scss";
+import ButtonSubmit from "./ButtonSubmit";
+import { connect } from "react-redux";
+import { addToCart } from "../redux/cart/cartActions";
 
 function CollectionItem(props) {
-  const { name, price, imageUrl, currency } = props;
+  const { name, price, imageUrl, currency, addToCartWithDispatch } = props;
+  console.log(props);
   return (
     <div className="collection-item">
       <div className="image" style={{ backgroundImage: `url(${imageUrl})` }} />
@@ -11,8 +15,26 @@ function CollectionItem(props) {
         <span className="price">{price}</span>
         <span className="currency">{currency}</span>
       </div>
+      <ButtonSubmit
+        className="add-to-cart"
+        onClick={() =>
+          addToCartWithDispatch({
+            name,
+            price,
+            imageUrl,
+            currency,
+          })
+        }
+      >
+        Add to cart
+      </ButtonSubmit>
     </div>
   );
 }
-
-export default CollectionItem;
+// ->utilizez mapDispatchToProps pentru a modifica state-ul store-ului->la click pe iconita valoarea lui hidden se schimba din true in false si invers
+function mapDispatchToProps(dispatch) {
+  return {
+    addToCartWithDispatch: (product) => dispatch(addToCart(product)),
+  };
+}
+export default connect(null, mapDispatchToProps)(CollectionItem);
