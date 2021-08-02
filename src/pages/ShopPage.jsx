@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import products from "../utils/products.json";
 import PreviewCollectionItem from "../pages/PreviewCollectionItem";
-import {connect} from 'react-redux';
 
 export class ShopPage extends Component {
   constructor() {
@@ -35,9 +34,5 @@ export class ShopPage extends Component {
     );
   }
 }
-function mapDispatchToProps(dispatch){
-  return{
-    
-  }
-}
-export default connect(null, mapDispatchToProps) (ShopPage);
+
+export default ShopPage;
