@@ -1,3 +1,4 @@
+// import {addProductToCart} from '../cart/cartUtils';
 const initialState = {
   // initial, componenta dropDown este ascunsa, deci hidden are valorea true, iar la eventul de click pe iconita se va afisa componete de DropDown
   hidden: true,

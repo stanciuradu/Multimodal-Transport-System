@@ -6,20 +6,28 @@ import { connect } from "react-redux";
 import { ReactComponent as ShoppingBag } from "../assets/icons/shopping-bag.svg";
 
 function CartIcon(props) {
-  const { toggleCartWithDispatch } = props;
+  const { toggleCartWithDispatch, numberOfProducts } = props;
   console.log(props);
   return (
     <div className="cart-icon" onClick={toggleCartWithDispatch}>
       <ShoppingBag className="shopping-icon" />
-      {/* adauga la svg numarul total de itemuri din cart */}
-      <span className="item-count">0</span>
+      <span className="item-count">{numberOfProducts}</span>
     </div>
   );
 }
+
+// funcia de abonare a componentei la store
+function mapStateToProps(state) {
+  console.log(state);
+  return {
+    numberOfProducts: state.products.length,
+  };
+}
+
 // mapDispatchToProps modifica statusul componentei la click->o modifica din true in false si invers
 function mapDispatchToProps(dispatch) {
   return {
     toggleCartWithDispatch: () => dispatch(toggleCartHidden()),
   };
 }
-export default connect(null, mapDispatchToProps)(CartIcon);
+export default connect(mapStateToProps, mapDispatchToProps)(CartIcon);
