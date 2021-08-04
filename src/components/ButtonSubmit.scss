@@ -15,6 +15,9 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
+  .link{
+    text-decoration: none;
+  }
 
   &:hover {
     background-color: white;
