@@ -15,16 +15,10 @@ function Checkout(props) {
     <div className="checkout-page">
       <div className="checkout-header">
         <div className="header-block">
-          <span>Product</span>
-        </div>
-        <div className="header-block">
-          <span>Description</span>
-        </div>
-        <div className="header-block">
-          <span>Price</span>
-        </div>
-        <div className="header-block">
-          <span>Remove</span>
+          <span className="product">Product</span>
+          <span className="description">Description</span>
+          <span className="price">Price</span>
+          <span className="remove">Remove</span>
         </div>
         {products.map((product, index) => {
           return (
@@ -32,6 +26,7 @@ function Checkout(props) {
               name={product.name}
               imageUrl={product.imageUrl}
               price={product.price}
+              currency={product.currency}
               key={index}
             />
           );
