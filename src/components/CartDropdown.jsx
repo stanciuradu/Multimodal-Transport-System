@@ -14,7 +14,7 @@ function CartDropdown(props) {
       <div className="cart-items">
         {/* daca sunt produse in cart, ele se vor afisa, randa in componenta dropDown, altfel se va afisa mesajul->Cartul tau este gol */}
         {productsItem.length ? (
-          productsItem.map((item, index) => {
+          productsItem.map((item,index) => {
             return (
               <CartProduct
                 name={item.name}
