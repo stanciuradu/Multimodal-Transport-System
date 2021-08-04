@@ -1,7 +1,7 @@
 import React from "react";
-import "../pages/PreviewCollection.scss";
-import "../components/CollectionItem";
-import CollectionItem from "../components/CollectionItem";
+import "../PreviewCollection/PreviewCollection.scss";
+// import "../components/CollectionItem";
+import CollectionItem from "../../components/CollectionItem/CollectionItem";
 
 function ProductsItem(props) {
   // pasez array-ul items ca props

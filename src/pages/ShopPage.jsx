@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import products from "../utils/products.json";
-import PreviewCollectionItem from "../pages/PreviewCollectionItem";
+import PreviewCollectionItem from "../pages/PreviewCollection/PreviewCollectionItem";
 
 export class ShopPage extends Component {
   constructor() {

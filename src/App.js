@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/HomePage/HomePage";
 import { Route, Switch } from "react-router-dom";
 import ShopPage from "./pages/ShopPage";
-import Header from "./components/Header";
-import SignInAndSignUp from "./pages/SignInAndSignUp";
-import Page404 from "./pages/Page404";
-import Checkout from "./pages/Checkout";
+import Header from "./components/Header/Header";
+import SignInAndSignUp from "./pages/SignInAndSignUp/SignInAndSignUp";
+import Page404 from "./pages/Page404/Page404";
+import Checkout from "./pages/Checkout/Checkout";
 import { auth } from "./apis/firebase";
 
 class App extends React.Component {

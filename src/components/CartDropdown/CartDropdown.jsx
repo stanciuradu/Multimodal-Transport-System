@@ -1,10 +1,10 @@
 import React from "react";
-import ButtonSubmit from "./ButtonSubmit";
-import "../components/CartDropdown.scss";
-import CartProduct from "./CartProduct";
+import ButtonSubmit from "../ButtonSubmit/ButtonSubmit";
+import "../../components/CartDropdown/CartDropdown.scss";
+import CartProduct from "../CartProduct/CartProduct";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-import {toggleCartHidden} from '../redux/cart/cartActions';
+import {toggleCartHidden} from '../../redux/cart/cartActions';
 
 function CartDropdown(props) {
   console.log(props);

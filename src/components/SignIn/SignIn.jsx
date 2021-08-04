@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import "../components/SignIn.scss";
-import FormInput from "./FormInput";
-import ButtonSubmit from "./ButtonSubmit";
+import "../SignIn/SignIn.scss";
+import FormInput from "../FormInput/FormInput";
+import ButtonSubmit from "../ButtonSubmit/ButtonSubmit";
 // import functia de autentificare cu Google
-import { signInWithGoogle } from "../apis/firebase";
+import { signInWithGoogle } from "../../apis/firebase";
 import { withRouter } from "react-router-dom";
 export class SignIn extends Component {
   constructor() {

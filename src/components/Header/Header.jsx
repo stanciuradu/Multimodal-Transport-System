@@ -1,11 +1,11 @@
 // componenta de Header este un a simpa de tip Function
 import React from "react";
-import "../components/Header.scss";
+import "../Header/Header.scss";
 import { Link } from "react-router-dom";
-import Logo from "../assets/images/logo.png";
-import { auth } from "../apis/firebase";
-import CartIcon from "./CartIcon";
-import CartDropdown from "./CartDropdown";
+import Logo from "../../assets/images/logo.png";
+import { auth } from "../../apis/firebase";
+import CartIcon from "../CartIcon/CartIcon";
+import CartDropdown from "../CartDropdown/CartDropdown";
 // conectez componenta la redux prin connect
 import { connect } from "react-redux";
 

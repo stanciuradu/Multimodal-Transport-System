@@ -1,6 +1,6 @@
 // componenta simpla care primeste doua props-uri
 import React from "react";
-import "../components/MenuItem.scss";
+import "../MenuItem/MenuItem.scss";
 
 function MenuItem(props) {
   const { title, imageUrl, size } = props;

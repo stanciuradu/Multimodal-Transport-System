@@ -1,7 +1,7 @@
 import React from "react";
-import "../pages/Checkout.scss";
+import "../Checkout/Checkout.scss";
 import { connect } from "react-redux";
-import CheckoutItem from "../components/CheckoutItem";
+import CheckoutItem from "../../components/ChechoutItem/CheckoutItem";
 
 function Checkout(props) {
   const { products } = props;
@@ -33,7 +33,7 @@ function Checkout(props) {
         })}
       </div>
       <div className="total">
-        <span>Total:€{totalSum(products)}</span>
+        <span>Total:{totalSum(products)}€</span>
       </div>
     </div>
   );

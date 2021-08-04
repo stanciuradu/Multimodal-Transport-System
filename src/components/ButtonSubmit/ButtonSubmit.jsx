@@ -1,6 +1,6 @@
 // ButtonSubmit este o componenta simpla reutilizabilă
 import React from "react";
-import "../components/ButtonSubmit.scss";
+import "../../components/ButtonSubmit/ButtonSubmit.scss";
 
 function ButtonSubmit(props) {
   const { children,inverted, ...otherProps } = props;

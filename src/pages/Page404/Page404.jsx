@@ -1,5 +1,5 @@
 import React from "react";
-import "../pages/Page404.scss";
+import "../Page404/Page404.scss";
 
 function Page404() {
   return (

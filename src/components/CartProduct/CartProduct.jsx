@@ -1,6 +1,6 @@
 // ->este o componenta simpla care reprezinta fiecare produs care are anumite prosp-uri
 import React from "react";
-import "../components/CartProduct.scss";
+import "../../components/CartProduct/CartProduct.scss";
 
 function CartProduct(props) {
   const { imageUrl, price, name, currency } = props;

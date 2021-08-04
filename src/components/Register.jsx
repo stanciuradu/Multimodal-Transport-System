@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import FormInput from "./FormInput";
-import ButtonSubmit from "./ButtonSubmit";
+import FormInput from "../components/FormInput/FormInput";
+import ButtonSubmit from "../components/ButtonSubmit/ButtonSubmit";
 
 export class Register extends Component {
   constructor() {

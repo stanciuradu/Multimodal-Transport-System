@@ -1,7 +1,7 @@
 import React from "react";
-import "../pages/SignInAndSignUp.scss";
-import SignIn from "../components/SignIn";
-import Register from "../components/Register";
+import "../SignInAndSignUp/SignInAndSignUp.scss";
+import SignIn from "../../components/SignIn/SignIn";
+import Register from "../../components/Register";
 
 function SignInAndSignUp() {
   return (

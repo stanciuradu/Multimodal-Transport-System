@@ -1,7 +1,7 @@
 import React from "react";
-import "../components/CheckoutItem.scss";
+import "../ChechoutItem/CheckoutItem.scss";
 import { connect } from "react-redux";
-import { removeFromCart } from "../redux/cart/cartActions";
+import { removeFromCart } from "../../redux/cart/cartActions";
 function CheckoutItem(props) {
   const {
     name,

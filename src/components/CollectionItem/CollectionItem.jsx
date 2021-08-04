@@ -1,8 +1,8 @@
 import React from "react";
-import "../components/CollectionItem.scss";
-import ButtonSubmit from "./ButtonSubmit";
+import "../CollectionItem/CollectionItem.scss";
+import ButtonSubmit from "../ButtonSubmit/ButtonSubmit";
 import { connect } from "react-redux";
-import { addToCart } from "../redux/cart/cartActions";
+import { addToCart } from "../../redux/cart/cartActions";
 
 function CollectionItem(props) {
   const { name, price, imageUrl, currency, addToCartWithDispatch } = props;

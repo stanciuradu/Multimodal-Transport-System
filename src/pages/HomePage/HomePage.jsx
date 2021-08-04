@@ -1,10 +1,10 @@
 // aceasta componenta va fi de tipul class deaorece vreau sa preiau doua props-uri din JSON, deci va trebui facut un request asincron
 // ->lifecycle methods
 import React, { Component } from "react";
-import products from "../utils/products.json";
-import "../pages/HomePage.scss";
-import MenuItem from "../components/MenuItem";
-import "../components/MenuList.scss";
+import products from "../../utils/products.json";
+import "../HomePage/HomePage.scss";
+import MenuItem from "../../components/MenuItem/MenuItem";
+import "../../components/MenuList/MenuList.scss";
 
 export class HomePage extends Component {
   constructor() {
