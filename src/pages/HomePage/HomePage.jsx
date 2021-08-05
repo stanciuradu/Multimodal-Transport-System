@@ -13,7 +13,7 @@ export class HomePage extends Component {
       // primul array reprezeinta datele despre produse
       categories: [],
       // al doilea array reprezinta datele cu privire la numele rutelor(categoriilor)
-      categoryName: [],
+      categoryNames: [],
     };
   }
   // facem request catre back-end prentru preluarea de date o singura data cu metoda componentDidMount
@@ -41,6 +41,8 @@ export class HomePage extends Component {
                 imageUrl={category.imageUrl}
                 size={category.size}
                 key={index}
+                // pasez numele rutei
+                routeName={this.state.categoriesNames[index]}
               />
             );
           })}
