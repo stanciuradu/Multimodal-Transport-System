@@ -7,7 +7,7 @@ import Header from "./components/Header/Header";
 import SignInAndSignUp from "./pages/SignInAndSignUp/SignInAndSignUp";
 import Page404 from "./pages/Page404/Page404";
 import Checkout from "./pages/Checkout/Checkout";
-import Category from './pages/Category/Category';
+import Category from "./pages/Category/Category";
 import { auth } from "./apis/firebase";
 
 class App extends React.Component {
@@ -18,16 +18,16 @@ class App extends React.Component {
       availableUser: null,
     };
   }
-  unsubscribeAuth=null;
+  unsubscribeAuth = null;
   // se face reqeust pentru a se prelua datee despre user si a se actualiza state-ul acestuia
   componentDidMount() {
-    this.unsubscribeAuth=auth.onAuthStateChanged((user) => {
+    this.unsubscribeAuth = auth.onAuthStateChanged((user) => {
       this.setState({ availableUser: user });
       console.log(user);
     });
   }
   // cand componneta s-a demontat, se inchide abonarea la baza de date
-  componentWillUnmount(){
+  componentWillUnmount() {
     this.unsubscribeAuth();
   }
   render() {
@@ -40,8 +40,8 @@ class App extends React.Component {
           <Route exact path="/" component={HomePage} />
           <Route path="/shop" component={ShopPage} />
           <Route path="/sign_in" component={SignInAndSignUp} />
-          <Route path="/checkout" component={Checkout}/>
-          <Route path="/category/:categoryName" component={Category}/>
+          <Route path="/checkout" component={Checkout} />
+          <Route path="/category/:categoryName" component={Category} />
           <Route path="*" component={Page404} />
         </Switch>
       </div>
