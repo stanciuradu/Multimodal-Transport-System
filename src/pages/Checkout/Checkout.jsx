@@ -2,6 +2,7 @@ import React from "react";
 import "../Checkout/Checkout.scss";
 import { connect } from "react-redux";
 import CheckoutItem from "../../components/ChechoutItem/CheckoutItem";
+import StripeButton from "../../components/StripeButton/StripeButton";
 
 function Checkout(props) {
   const { products } = props;
@@ -35,6 +36,7 @@ function Checkout(props) {
       <div className="total">
         <span>Total:{totalSum(products)}€</span>
       </div>
+      <StripeButton price={totalSum} />
     </div>
   );
 }
