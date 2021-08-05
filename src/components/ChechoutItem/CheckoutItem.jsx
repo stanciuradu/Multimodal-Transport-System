@@ -9,7 +9,6 @@ function CheckoutItem(props) {
     price,
     currency,
     removeFromCartWithDispatch,
-    product,
   } = props;
   return (
     <div className="checkout-item">
@@ -18,7 +17,7 @@ function CheckoutItem(props) {
       </div>
       <span className="name">{name}</span>
       <span className="price">{price + currency}</span>
-      <div className="remove-button" onClick={()=>removeFromCartWithDispatch({id:product.id})}>&#10005;</div>
+      <div className="remove-button" onClick={()=>removeFromCartWithDispatch()}>&#10005;</div>
     </div>
   );
 }

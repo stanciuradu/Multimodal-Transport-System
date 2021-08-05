@@ -25,13 +25,9 @@ function cartReducer(state = initialState, action) {
         }
         return newState;
         case "REMOVE_FROM_CART":
-        const productRemove=action.payload;
-        const productsFilter = state.products.filter(
-          (product) => product.id !== productRemove.id
-        );
         const newStateRemoveFromCart={
           ...state,
-          products:productsFilter
+          products:[]
         }
         return newStateRemoveFromCart;
     default:
