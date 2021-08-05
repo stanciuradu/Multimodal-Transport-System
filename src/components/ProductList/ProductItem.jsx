@@ -1,5 +1,6 @@
 import React from "react";
 import "../ProductList/ProductItem.scss";
+import ButtonSubmit from "../ButtonSubmit/ButtonSubmit";
 
 function ProductItem(props) {
   const { name, imageUrl, price, currency } = props;
@@ -11,6 +12,7 @@ function ProductItem(props) {
         <span className="price">{price}</span>
         <span className='currency'>{currency}</span>
       </div>
+      <ButtonSubmit>Add to Cart</ButtonSubmit>
     </div>
   );
 }
