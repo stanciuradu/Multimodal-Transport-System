@@ -65,7 +65,7 @@
         "currency": "€"
       }
     ],
-    "title": "hats",
+    "title": "Hats",
     "imageUrl": "https://i.ibb.co/cvpntL1/hats.png"
   },
   "seakers": {
@@ -127,7 +127,7 @@
         "currency": "€"
       }
     ],
-    "title": "seakers",
+    "title": "Seakers",
     "imageUrl": "https://i.ibb.co/px2tCc3/jackets.png"
   },
   "Jackets": {
@@ -223,7 +223,7 @@
         "currency": "€"
       }
     ],
-    "title": "womens",
+    "title": "Womens",
     "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
   },
   "mens": {
@@ -271,7 +271,7 @@
         "currency": "€"
       }
     ],
-    "title": "mens",
+    "title": "Mens",
     "imageUrl": "https://i.ibb.co/R70vBrQ/men.png"
   }
 }

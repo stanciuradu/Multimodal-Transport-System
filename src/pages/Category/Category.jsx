@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import ProductList from '../../components/ProductList/ProductList';
 import products from '../../utils/products.json';
+import "../Category/Category.scss";
 
 export class Category extends Component {
     constructor(){
@@ -23,6 +24,7 @@ export class Category extends Component {
         console.log(this.props);
         return (
             <div className='category'>
+                <h1 className='title-category-page'>{this.state.category.title}</h1>
                 <ProductList products={this.state.category.items} />
             </div>
         );
