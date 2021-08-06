@@ -10,8 +10,8 @@
       },
       {
         "id": 2,
-        "name": "Blue Beanie",
-        "imageUrl": "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+        "name": "Black Beanie",
+        "imageUrl": "https://i.imgur.com/G5prGrK.jpg",
         "price": 18,
         "currency": "€"
       },
@@ -38,29 +38,29 @@
       },
       {
         "id": 6,
-        "name": "Palm Tree Cap",
-        "imageUrl": "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
+        "name": "Palm Duo Sole",
+        "imageUrl": "https://i.imgur.com/97dYVQK.jpg",
         "price": 14,
         "currency": "€"
       },
       {
         "id": 7,
-        "name": "Red Beanie",
-        "imageUrl": "https://i.ibb.co/bLB646Z/red-beanie.png",
+        "name": "Sunshine Hat",
+        "imageUrl": "https://i.imgur.com/F11szOu.jpg",
         "price": 18,
         "currency": "€"
       },
       {
         "id": 8,
-        "name": "Wolf Cap",
-        "imageUrl": "https://i.ibb.co/1f2nWMM/wolf-cap.png",
+        "name": "Orange Cap",
+        "imageUrl": "https://i.imgur.com/Yz19QlF.jpg",
         "price": 14,
         "currency": "€"
       },
       {
         "id": 9,
-        "name": "Blue Snapback",
-        "imageUrl": "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        "name": "Brown Snapback",
+        "imageUrl": "https://i.imgur.com/TNQQ0JT.jpg",
         "price": 16,
         "currency": "€"
       }
