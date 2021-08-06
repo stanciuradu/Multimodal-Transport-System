@@ -66,9 +66,9 @@
       }
     ],
     "title": "Hats",
-    "imageUrl": "https://i.ibb.co/cvpntL1/hats.png"
+    "imageUrl": "https://i.imgur.com/rm16jnY.jpg"
   },
-  "seakers": {
+  "sneakers": {
     "items": [
       {
         "id": 10,
@@ -127,8 +127,8 @@
         "currency": "€"
       }
     ],
-    "title": "Seakers",
-    "imageUrl": "https://i.ibb.co/px2tCc3/jackets.png"
+    "title": "Sneakers",
+    "imageUrl": "https://i.imgur.com/MgENzYG.jpg"
   },
   "Jackets": {
     "items": [
@@ -169,7 +169,7 @@
       }
     ],
     "title": "Jackets",
-    "imageUrl": "https://i.ibb.co/0jqHpnp/sneakers.png"
+    "imageUrl": "https://i.imgur.com/QU5Qbrq.jpg"
   },
   "Womens": {
     "items": [
@@ -224,7 +224,7 @@
       }
     ],
     "title": "Womens",
-    "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
+    "imageUrl": "https://i.imgur.com/DN9vD86.jpg"
   },
   "mens": {
     "items": [
@@ -272,6 +272,6 @@
       }
     ],
     "title": "Mens",
-    "imageUrl": "https://i.ibb.co/R70vBrQ/men.png"
+    "imageUrl": "https://i.imgur.com/k9FYVtd.jpg"
   }
 }
