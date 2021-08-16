@@ -7,10 +7,8 @@ import { signInWithGoogle } from "../../apis/firebase";
 import { useHistory } from "react-router";
 function SignIn() {
   let history = useHistory();
-  const [userCredentials, setUserCredentials] = useState({
-    email: "",
-    password: "",
-  });
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   // metoda de logare cu Google
   // prin history.push se redirectioneaza user-ul catre pagina de Home
@@ -23,10 +21,8 @@ function SignIn() {
     //   prevenirea comportameentului default la formularului
     event.preventDefault();
     // resetarea formularului dupa completare
-    this.setState({
-      email: "",
-      password: "",
-    });
+    setEmail("");
+    setPassword("");
   }
   return (
     <div>
@@ -40,18 +36,18 @@ function SignIn() {
           <FormInput
             type="email"
             name="email"
-            value={userCredentials}
+            value={email}
             label="email"
-            handleChange={(event) => setUserCredentials(event.target.value)}
+            handleChange={(event) => setEmail(event.target.value)}
             require
           />
           {/* actuaziez inputului cu, componenta FormInput care are style-ul pregatit */}
           <FormInput
             type="password"
             name="password"
-            value={userCredentials}
+            value={password}
             label="password"
-            handleChange={(event) => setUserCredentials(event.target.value)}
+            handleChange={(event) => setPassword(event.target.value)}
             require
           />
           <div className="button-submit">
