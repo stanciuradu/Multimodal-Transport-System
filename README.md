@@ -18,6 +18,8 @@
 ->stocarea persistentă a produselor din cart astfel încât ele să nu se piardă la primul refresh a paginii web;
 #
 ->la click pe butonul Pay Now se poate realiza plata online a produselor prin intermediul API-ului de la Stripe;
+#
+Link către aplicație:https://radu-s-clothes.netlify.app/
 
 
 
