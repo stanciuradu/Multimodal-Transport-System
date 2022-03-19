@@ -1,277 +1,116 @@
 {
-  "hats": {
+  "Tren": {
     "items": [
       {
         "id": 1,
-        "name": "Brown Brim",
-        "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
-        "price": 25,
+        "name": "Ploiesti-Comarnic",
+        "imageUrl": "https://imgur.com/nrPmSP1.png",
+        "price": 10,
         "currency": "€"
       },
       {
         "id": 2,
-        "name": "Black Beanie",
-        "imageUrl": "https://i.imgur.com/G5prGrK.jpg",
-        "price": 18,
+        "name": "Timisoara-Bucuresti",
+        "imageUrl": "https://imgur.com/YCeLF2c.png",
+        "price": 11,
         "currency": "€"
       },
       {
         "id": 3,
-        "name": "Brown Cowboy",
-        "imageUrl": "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
-        "price": 35,
-        "currency": "€"
-      },
-      {
-        "id": 4,
-        "name": "Grey Brim",
-        "imageUrl": "https://i.ibb.co/RjBLWxB/grey-brim.png",
-        "price": 25,
-        "currency": "€"
-      },
-      {
-        "id": 5,
-        "name": "Green Beanie",
-        "imageUrl": "https://i.ibb.co/YTjW3vF/green-beanie.png",
-        "price": 18,
-        "currency": "€"
-      },
-      {
-        "id": 6,
-        "name": "Palm Duo Sole",
-        "imageUrl": "https://i.imgur.com/97dYVQK.jpg",
-        "price": 14,
-        "currency": "€"
-      },
-      {
-        "id": 7,
-        "name": "Sunshine Hat",
-        "imageUrl": "https://i.imgur.com/F11szOu.jpg",
-        "price": 18,
-        "currency": "€"
-      },
-      {
-        "id": 8,
-        "name": "Orange Cap",
-        "imageUrl": "https://i.imgur.com/Yz19QlF.jpg",
-        "price": 14,
-        "currency": "€"
-      },
-      {
-        "id": 9,
-        "name": "Brown Snapback",
-        "imageUrl": "https://i.imgur.com/TNQQ0JT.jpg",
-        "price": 16,
+        "name": "Bucuresti-Constanta",
+        "imageUrl": "https://imgur.com/NbdFsUg.png",
+        "price": 12,
         "currency": "€"
       }
     ],
-    "title": "Hats",
-    "imageUrl": "https://i.imgur.com/rm16jnY.jpg"
+    "title": "Tren",
+    "imageUrl": "https://imgur.com/2LyFnXy.jpg"
   },
-  "sneakers": {
+  "Avion": {
     "items": [
       {
         "id": 10,
-        "name": "Adidas NMD",
-        "imageUrl": "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
-        "price": 220,
+        "name": "Paris-New York",
+        "imageUrl": "https://imgur.com/kUTL33N.png",
+        "price": 320,
         "currency": "€"
       },
       {
         "id": 11,
-        "name": "Adidas Yeezy",
-        "imageUrl": "https://i.ibb.co/dJbG1cT/yeezy.png",
-        "price": 280,
+        "name": "Roma-Londra",
+        "imageUrl": "https://imgur.com/yHZeWL0.png",
+        "price": 200,
         "currency": "€"
       },
       {
         "id": 12,
-        "name": "Black Converse",
-        "imageUrl": "https://i.ibb.co/bPmVXyP/black-converse.png",
-        "price": 110,
-        "currency": "€"
-      },
-      {
-        "id": 13,
-        "name": "Nike White AirForce",
-        "imageUrl": "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
-        "price": 160,
-        "currency": "€"
-      },
-      {
-        "id": 14,
-        "name": "Nike Red High Tops",
-        "imageUrl": "https://i.ibb.co/QcvzydB/nikes-red.png",
-        "price": 160,
-        "currency": "€"
-      },
-      {
-        "id": 15,
-        "name": "Nike Brown High Tops",
-        "imageUrl": "https://i.ibb.co/fMTV342/nike-brown.png",
-        "price": 160,
-        "currency": "€"
-      },
-      {
-        "id": 16,
-        "name": "Air Jordan Limited",
-        "imageUrl": "https://i.ibb.co/w4k6Ws9/nike-funky.png",
-        "price": 190,
-        "currency": "€"
-      },
-      {
-        "id": 17,
-        "name": "Timberlands",
-        "imageUrl": "https://i.ibb.co/Mhh6wBg/timberlands.png",
-        "price": 200,
+        "name": "New York-Londra",
+        "imageUrl": "https://imgur.com/dTlfaVM.png",
+        "price": 250,
         "currency": "€"
       }
     ],
-    "title": "Sneakers",
-    "imageUrl": "https://i.imgur.com/MgENzYG.jpg"
+    "title": "Avion",
+    "imageUrl": "https://imgur.com/FG23d5U.jpg"
   },
-  "Jackets": {
+  "Autobuz": {
     "items": [
       {
         "id": 18,
-        "name": "Black Jean Shearling",
-        "imageUrl": "https://i.ibb.co/XzcwL5s/black-shearling.png",
-        "price": 125,
+        "name": "Cluj Napoca",
+        "imageUrl": "https://imgur.com/xbIEcU2.png",
+        "price": 4,
         "currency": "€"
       },
       {
         "id": 19,
-        "name": "Blue Jean Jacket",
-        "imageUrl": "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
-        "price": 90,
-        "currency": "€"
-      },
-      {
-        "id": 20,
-        "name": "Grey Jean Jacket",
-        "imageUrl": "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
-        "price": 90,
-        "currency": "€"
-      },
-      {
-        "id": 21,
-        "name": "Brown Shearling",
-        "imageUrl": "https://i.ibb.co/s96FpdP/brown-shearling.png",
-        "price": 165,
-        "currency": "€"
-      },
-      {
-        "id": 22,
-        "name": "Tan Trench",
-        "imageUrl": "https://i.ibb.co/M6hHc3F/brown-trench.png",
-        "price": 185,
+        "name": "Bacau",
+        "imageUrl": "https://imgur.com/UwqCIty.png",
+        "price": 2,
         "currency": "€"
       }
     ],
-    "title": "Jackets",
-    "imageUrl": "https://i.imgur.com/QU5Qbrq.jpg"
+    "title": "Autobuz",
+    "imageUrl": "https://imgur.com/fNLV4iz.jpg"
   },
-  "Womens": {
+  "Tramvai": {
     "items": [
       {
         "id": 23,
-        "name": "Blue Tanktop",
-        "imageUrl": "https://i.ibb.co/7CQVJNm/blue-tank.png",
-        "price": 25,
-        "currency": "€"
-      },
-      {
-        "id": 24,
-        "name": "Floral Blouse",
-        "imageUrl": "https://i.ibb.co/4W2DGKm/floral-blouse.png",
-        "price": 20,
-        "currency": "€"
-      },
-      {
-        "id": 25,
-        "name": "Floral Dress",
-        "imageUrl": "https://i.ibb.co/KV18Ysr/floral-skirt.png",
-        "price": 80,
-        "currency": "€"
-      },
-      {
-        "id": 26,
-        "name": "Red Dots Dress",
-        "imageUrl": "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
-        "price": 80,
-        "currency": "€"
-      },
-      {
-        "id": 27,
-        "name": "Striped Sweater",
-        "imageUrl": "https://i.ibb.co/KmSkMbH/striped-sweater.png",
-        "price": 45,
-        "currency": "€"
-      },
-      {
-        "id": 28,
-        "name": "Yellow Track Suit",
-        "imageUrl": "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
-        "price": 135,
-        "currency": "€"
-      },
-      {
-        "id": 29,
-        "name": "White Blouse",
-        "imageUrl": "https://i.ibb.co/qBcrsJg/white-vest.png",
-        "price": 20,
+        "name": "Tramvai Bucuresti",
+        "imageUrl": "https://imgur.com/I6PFSmI.png",
+        "price": 3,
         "currency": "€"
       }
     ],
-    "title": "Womens",
-    "imageUrl": "https://i.imgur.com/DN9vD86.jpg"
+    "title": "Tramvai",
+    "imageUrl": "https://imgur.com/eI0N9iV.jpg"
   },
-  "mens": {
+  "Metrou": {
     "items": [
       {
         "id": 30,
-        "name": "Camo Down Vest",
-        "imageUrl": "https://i.ibb.co/xJS0T3Y/camo-vest.png",
-        "price": 325,
+        "name": "Cartela 10 Calatorii",
+        "imageUrl": "https://imgur.com/MlVPVF6.png",
+        "price": 6,
         "currency": "€"
       },
       {
         "id": 31,
-        "name": "Floral T-shirt",
-        "imageUrl": "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
-        "price": 20,
+        "name": "Cartela 1 Clatorie",
+        "imageUrl": "https://imgur.com/f1j13y3.png",
+        "price": 1,
         "currency": "€"
       },
       {
         "id": 32,
-        "name": "Black & White Longsleeve",
-        "imageUrl": "https://i.ibb.co/55z32tw/long-sleeve.png",
-        "price": 25,
-        "currency": "€"
-      },
-      {
-        "id": 33,
-        "name": "Pink T-shirt",
-        "imageUrl": "https://i.ibb.co/RvwnBL8/pink-shirt.png",
-        "price": 25,
-        "currency": "€"
-      },
-      {
-        "id": 34,
-        "name": "Jean Long Sleeve",
-        "imageUrl": "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
-        "price": 40,
-        "currency": "€"
-      },
-      {
-        "id": 35,
-        "name": "Burgundy T-shirt",
-        "imageUrl": "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        "name": "Cartela 2 Calatorii",
+        "imageUrl": "https://imgur.com/aHywkr4.png",
         "price": 25,
         "currency": "€"
       }
     ],
-    "title": "Mens",
-    "imageUrl": "https://i.imgur.com/k9FYVtd.jpg"
+    "title": "Metrou",
+    "imageUrl": "https://imgur.com/pNrEY1D.jpg"
   }
 }

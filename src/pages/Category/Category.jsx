@@ -11,17 +11,15 @@ export class Category extends Component {
             category:[]
         };
     }
-     // in componentDidMount fac request-ul catre server pentru datele
+// in componentDidMount fac request-ul catre server pentru date
   componentDidMount() {
     console.log(this.props);
     // In match gasim parametri rutei
     const { match } = this.props;
     const categoryName = match.params.categoryName;
     this.setState({ category: products[categoryName] });
-
-  }
+}
     render() {
-        console.log(this.props);
         return (
             <div className='category'>
                 <h1 className='title-category-page'>{this.state.category.title}</h1>

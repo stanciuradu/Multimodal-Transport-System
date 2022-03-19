@@ -21,9 +21,6 @@ function Header(props) {
         <Link to="/shop" className="option">
           <h4>SHOP PAGE</h4>
         </Link>
-        <Link to="/shop" className="option">
-          <h4>CONTACT</h4>
-        </Link>
         <Link to="/sign_in" className="option">
           <h4>SIGN IN</h4>
         </Link>
