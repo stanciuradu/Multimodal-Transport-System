@@ -14,10 +14,10 @@ function StripeButton(props) {
     <div>
       <StripeCheckout
         label="Pay Now"
-        name="Radu's Clothes"
+        name="Multimodal Transport System"
         billingAddress
         shippingAddress
-        image="https://i.imgur.com/L6PvIUr.png"
+        image="https://imgur.com/gHEd2rr.png"
         description={`Yout total is €${price}`}
         amount={priceForStripe}
         panelLabel='Pay now' 
