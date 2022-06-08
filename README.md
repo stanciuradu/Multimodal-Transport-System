@@ -20,13 +20,3 @@
 ->la click pe butonul Pay Now se poate realiza plata online a produselor prin intermediul API-ului de la Stripe;
 #
 Link către aplicație:https://radu-s-clothes.netlify.app/
-
-
-
-
-
-# Multimodal-Transport-System
-# Multimodal-Transport-System
-# Multimodal-Transport-System
-# Multimodal-Transport-System
-# Multimodal-Transport-System
